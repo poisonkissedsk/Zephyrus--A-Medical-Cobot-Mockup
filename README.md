@@ -27,8 +27,10 @@ python -m ipykernel install --user --name=tfodj
 <img src="https://i.imgur.com/8yac6Xl.png"> 
 <br/>
 <b>Step 6.</b> Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br/>
-\TFODCourse\Tensorflow\workspace\images\train<br />
-\TFODCourse\Tensorflow\workspace\images\test
+\Robotic_Arm-TFOD
+\Tensorflow\workspace\images\train<br />
+\Robotic_Arm-TFOD
+\Tensorflow\workspace\images\test
 <br/><br/>
 <b>Step 7.</b> Begin training process by opening <a href="https://github.com/poisonkissedsk/Robotic_Arm-TFOD/blob/main/2.%20Training%20and%20Detection.ipynb">2. Training and Detection.ipynb</a>, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model. 
 <br /><br/>
