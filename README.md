@@ -86,12 +86,11 @@ Zephyrus uses YOLO v11 for real-time surgical tool detection, integrated directl
 
 ## 🎬 Demo
 
-Watch the Zephyrus robot perform a **live pick-and-place demonstration** with accurate tool localization.
+Watch the Zephyrus robot perform a **live pick-and-place demonstration** with accurate tool localization:
 
-[![Demo Video](https://img.youtube.com/vi/N2VDJGZz7JY/0.jpg)](https://github.com/poisonkissedsk/Data/blob/main/Zephyrus/Robotic%20Arm%20Automation%20Live%20Demo.mp4?raw=true)
+▶️ [Click to Watch the Demo Video](https://github.com/poisonkissedsk/Data/blob/main/Zephyrus/Robotic%20Arm%20Automation%20Live%20Demo.mp4?raw=true)
 
-*(If video doesn’t auto-play, right-click → Open link in new tab to view)*
-
+*(Right-click → Open in new tab if it doesn't autoplay)*
 ---
 
 ## 📊 Results & Discussion
