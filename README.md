@@ -84,6 +84,15 @@ Zephyrus uses YOLO v11 for real-time surgical tool detection, integrated directl
 
 ---
 
+## 🔁 Vision Integration Snapshot
+
+The robotic arm receives object detection inputs from the deep learning model in real-time. Here's a visual of the integration in action:
+
+![Computer Vision Integration](https://github.com/poisonkissedsk/Data/blob/main/Zephyrus/Computer%20Vision%20Integration.jpg?raw=true)
+
+
+---
+
 ## 🎬 Demo
 
 Watch the Zephyrus robot perform a **live pick-and-place demonstration** with accurate tool localization:
