@@ -1,4 +1,4 @@
-# 🤖 Zephyrus: Robotic Arm for Surgical Assistance
+# Zephyrus: Robotic Arm for Surgical Assistance
 
 Zephyrus is a 6DOF robotic arm designed for surgical assistance, combining low-cost mechanical components with intelligent object detection via a YOLO v11-based architecture. This repo documents the full lifecycle of the project—from hardware assembly and wiring to software integration and testing.
 
@@ -6,17 +6,9 @@ Zephyrus is a 6DOF robotic arm designed for surgical assistance, combining low-c
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project addresses challenges in precision and affordability for robotic assistance in surgical environments. Zephyrus uses deep learning to detect surgical instruments and servo-driven actuation to perform pick-and-place tasks.
-
----
-
-## 📝 Problem Statement
-
-- **💰 Cost & Reliability:** Surgical robotics are often expensive and inaccessible. Zephyrus aims to bridge this gap.
-- **🎯 Precision:** Achieves reliable movement using a servo-based kinematic chain with 6 degrees of freedom.
-- **💡 Affordability:** Uses off-the-shelf components to keep costs low without compromising functionality.
 
 ---
 
