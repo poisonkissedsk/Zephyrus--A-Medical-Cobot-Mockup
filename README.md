@@ -12,37 +12,37 @@ This project addresses challenges in precision and affordability for robotic ass
 
 ---
 
-## 🛠 Hardware Components
+## Hardware Components
 
 A combination of high-precision and budget servos powers the robotic arm:
 
 ### 🔧 Servos
 
 - **Servo G90**
-  - 📏 Dimensions: 22.2 × 11.8 × 31 mm
-  - 💪 Torque: 1.8 kgf·cm
-  - ⏱ Speed: 0.1 s/60°
-  - ⚖️ Weight: 9g
+  - Dimensions: 22.2 × 11.8 × 31 mm
+  - Torque: 1.8 kgf·cm
+  - Speed: 0.1 s/60°
+  - Weight: 9g
 
 - **Servo MG996RS**
-  - 💪 Torque: Up to 11 kgf·cm
-  - ⚙️ Metal Gear | ⏱ Speed: 0.17 s/60°
-  - ⚖️ Weight: 55g | 🔌 5–6V Input
+  - Torque: Up to 11 kgf·cm
+  - Metal Gear | Speed: 0.17 s/60°
+  - Weight: 55g | 5–6V Input
 
-### 🧠 Microcontroller
+### Microcontroller
 
 - **Arduino UNO**
-  - 💾 Flash: 32 KB | 🔌 5V Operation
-  - 🧠 Chip: ATMega328P | ⏱ 16 MHz
+  - Flash: 32 KB | 5V Operation
+  - Chip: ATMega328P | 16 MHz
 
-### 🔌 Power Supply
+### Power Supply
 
 - **MB102 Breadboard PSU**
-  - 🔋 Input: 6.5–12V DC
-  - ⚡ Output: 3.3V/5V
-  - 🧲 Max Current: <700 mA
+  - Input: 6.5–12V DC
+  - Output: 3.3V/5V
+  - Max Current: <700 mA
 
-### 🖇 Wiring
+### Wiring
 
 Wiring is compact and modular for rapid debugging.
 
@@ -50,24 +50,24 @@ Wiring is compact and modular for rapid debugging.
 
 ---
 
-## 🧠 Deep Learning Workflow
+## Deep Learning Workflow
 
 Zephyrus uses YOLO v11 for real-time surgical tool detection, integrated directly into the robotic control loop.
 
-### 📂 Dataset
+### Dataset
 
-- 🗂 Source: [Dataset Ninja - Surgical Tools](https://datasetninja.com/labeled-surgical-tools-and-images)
-- 📸 Images: 2,620  
-- 🔍 Labeled Objects: 3,639  
-- 🏷 Classes: Curved Mayo Scissor, Scalpel, Straight Dissection Clamp, Straight Mayo Scissor
+- Source: [Dataset Ninja - Surgical Tools](https://datasetninja.com/labeled-surgical-tools-and-images)
+- Images: 2,620  
+- Labeled Objects: 3,639  
+- Classes: Curved Mayo Scissor, Scalpel, Straight Dissection Clamp, Straight Mayo Scissor
 
-### 🧩 YOLO v11 Architecture
+### YOLO v11 Architecture
 
 - **Backbone:** Feature extraction  
 - **Neck:** Feature pyramid + fusion  
 - **Head:** Predicts bounding boxes & class labels
 
-### ⚙️ Methodology
+### Methodology
 
 1. **Data Preprocessing:** Normalization, augmentation, and split
 2. **Training:** Custom YOLO v11 model on surgical dataset
@@ -76,7 +76,7 @@ Zephyrus uses YOLO v11 for real-time surgical tool detection, integrated directl
 
 ---
 
-## 🔁 Vision Integration Snapshot
+## Vision Integration Snapshot
 
 The robotic arm receives object detection inputs from the deep learning model in real-time. Here's a visual of the integration in action:
 
@@ -85,16 +85,16 @@ The robotic arm receives object detection inputs from the deep learning model in
 
 ---
 
-## 🎬 Demo
+## Demo
 
 Watch the Zephyrus robot perform a **live pick-and-place demonstration** with accurate tool localization:
 
-▶️ [Click to Watch the Demo Video](https://github.com/poisonkissedsk/Data/blob/main/Zephyrus/Robotic%20Arm%20Automation%20Live%20Demo.mp4?raw=true)
+ [Click to Watch the Demo Video](https://github.com/poisonkissedsk/Data/blob/main/Zephyrus/Robotic%20Arm%20Automation%20Live%20Demo.mp4?raw=true)
 
 *(Right-click → Open in new tab if it doesn't autoplay)*
 ---
 
-## 📊 Results & Discussion
+## Results & Discussion
 
 Zephyrus successfully performed real-time detection and mechanical movement using YOLO predictions. Results were:
 
