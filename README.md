@@ -16,7 +16,7 @@ This project addresses challenges in precision and affordability for robotic ass
 
 A combination of high-precision and budget servos powers the robotic arm:
 
-### 🔧 Servos
+### Servos
 
 - **Servo G90**
   - Dimensions: 22.2 × 11.8 × 31 mm
